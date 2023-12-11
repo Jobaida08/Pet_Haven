@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form - Pet Haven</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assests/fonts/font-awesome/css/all.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assests/css/register_style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assests/img/Favicon/favicon_1.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main">
+        <div class="page">
+            <header>Registration Form</header>
+            <section id="user-registration">
+            <form id="user-registration-form" action="register.php" method="post">
+                <label for="first_name"></label>
+                <input type="text" name="first_name" placeholder="First Name">
+                <label for="last_name"></label>
+                <input type="text" name="last_name" placeholder="Last Name">
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Email">
+                <label for="contact_number"></label>
+                <input type="tel" name="number" placeholder="Contact number">
+                <label for="password"></label>
+                <input type="password" name="password" placeholder="Password"><br>
+                    <p style="font-size: 16px;"><input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px; font-size: 15px";> Remember Me</p>
+                    <button name="send" value="Send">Create Account</button>
+                    <p style="font-size: 16px;">Already have an account?
+                    <a target="_blank" href="../Login/login.html">Sign Up</a></p>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>

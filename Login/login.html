@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login - Pet Haven</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assests/fonts/font-awesome/css/all.css">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="assests/css/userLogin_style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assests/img/Favicon/favicon_1.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main">
+        <div class="up"></div>
+            <div class="down"></div>
+        <div class="left">
+            <div class="right">
+                <header>Sign Up</header>
+                <section id="user-login">
+                    <form id="user-login-form" action="login.php" method="post">
+                        <label for="user-name"></label>
+                        <input type="text" id="user-name" name="username" required>
+                        <label for="user-name"></label>
+                        <input type="password" id="password" name="password" required><br>
+                        <p style="font-size: 16px;"><input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px; font-size: 15px";> Remember Me</p>
+                        <button name="send" value="Send">Login</button><br>
+                        <a target="_blank" href="../Login/register.html">Create An Account</a>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>

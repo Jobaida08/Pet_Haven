@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pet_management_style.css">
+    <title>Pet Management - Pet Haven</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+           
+            <img src="../images/petlogo.jpeg" alt="Admin Logo" height="40">
+            <span id="site-title">Pet Haven Admin</span>
+        </div>
+        <nav>
+            <a href="admin_dashboard.html">Dashboard</a>
+            <a href="#">Pet Management</a>
+            <a href="#">User Management</a>
+            <a href="#" class="logout-btn">Logout</a>
+        </nav>
+    </header>
+
+    <section id="pet-management-content">
+        <h1>Pet Management</h1>
+
+                <form id="pet-form" enctype="multipart/form-data">
+            <label for="pet-type">Pet Type:</label>
+            <input type="text" id="pet-type" name="pet-type" required>
+
+            <label for="pet-sex">Sex:</label>
+            <input type="text" id="pet-sex" name="pet-sex" required>
+
+            <label for="pet-breed">Breed:</label>
+            <input type="text" id="pet-breed" name="pet-breed" required>
+
+            <label for="pet-age">Age:</label>
+            <input type="number" id="pet-age" name="pet-age" required>
+
+            <label for="pet-weight">Weight (in kg):</label>
+            <input type="number" id="pet-weight" name="pet-weight" required>
+
+        
+            <label for="pet-image">Upload Pet Image:</label>
+    <input type="file" id="pet-image" name="pet-image" accept="image/*">
+
+            <button type="button" onclick="addPet()">Add Pet</button>
+        </form>
+
+        
+        <div id="pet-container"></div>
+
+        
+        <button type="button" onclick="saveChanges()">Save Changes</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pet Haven - Pet Management. All rights reserved.</p>
+    </footer>
+
+    <script src="pet_management_script.js"></script>
+</body>
+</html>

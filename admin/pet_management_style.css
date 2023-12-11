@@ -1,0 +1,127 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #fce6e6;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #ff6666;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Pet Management section styling */
+#pet-management-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff6666;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #ff6666;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Pet Box styling */
+.pet-box {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.pet-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.pet-box p {
+    margin: 5px 0;
+}
+
+.pet-box button {
+    background-color: #ff6666;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff6666;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+button:hover {
+    background-color: #ff4747; 
+}
+
+
+#save-changes-btn:hover {
+    background-color: #ff4747; 
+}

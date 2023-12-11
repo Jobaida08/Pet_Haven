@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe5e5;
+    background-image: url(img/bg1.png);
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: lightcoral;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    margin-right: 10px;
+    border-radius: 15%;
+}
+
+#site-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+nav a:hover {
+    background-color: #ff9999; 
+}
+
+.login-btn {
+    color: #ea1b4b;
+    text-decoration: none;
+    margin: 0 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+}
+
+section#hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+.profile-info,
+.user-pets {
+    flex: 1;
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.user-details {
+    margin-top: 20px;
+}
+
+.user-pets ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-pets li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+footer {
+    background-color: lightcoral;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 160px;
+}
